@@ -21,7 +21,7 @@ export default function Header() {
             </nav>
         </menu>
         <div>
-            <Link className=" flex " to="/cartpage">
+            <Link className=" flex" to="/cartpage">
                 <img src="/images/Vector.svg" alt="" />
                 <span className=" w-5 h-5 flex items-center justify-center text-white rounded-full bg-blue-700">{count}</span>
             </Link>
